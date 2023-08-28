@@ -18,7 +18,7 @@ $(document).ready(function(){
                     ver a imagem em tamanho real
                 </a>
             </div>
-        `).appendTo();
+        `).appendTo(novoItem);
         $(novoItem).appendTo('ul');
         $(novoItem).fadeIn(1000);
         $('#endereco-imagem-nova').val('');
